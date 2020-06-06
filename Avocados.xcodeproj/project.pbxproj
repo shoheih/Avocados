@@ -13,6 +13,10 @@
 		8C13FCEE24893B7100BC36E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C13FCED24893B7100BC36E3 /* Assets.xcassets */; };
 		8C13FCF124893B7100BC36E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C13FCF024893B7100BC36E3 /* Preview Assets.xcassets */; };
 		8C13FCF424893B7100BC36E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C13FCF224893B7100BC36E3 /* LaunchScreen.storyboard */; };
+		8C16ED6A248B3E4B00AEE8FE /* AvodadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16ED69248B3E4B00AEE8FE /* AvodadosView.swift */; };
+		8C16ED6C248B3E7B00AEE8FE /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16ED6B248B3E7B00AEE8FE /* RipeningStagesView.swift */; };
+		8C16ED6E248B3E9200AEE8FE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16ED6D248B3E9200AEE8FE /* SettingsView.swift */; };
+		8C16ED70248B3EAC00AEE8FE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16ED6F248B3EAC00AEE8FE /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		8C13FCF024893B7100BC36E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C13FCF324893B7100BC36E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C13FCF524893B7100BC36E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C16ED69248B3E4B00AEE8FE /* AvodadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvodadosView.swift; sourceTree = "<group>"; };
+		8C16ED6B248B3E7B00AEE8FE /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		8C16ED6D248B3E9200AEE8FE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8C16ED6F248B3EAC00AEE8FE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,11 @@
 		8C13FCE624893B6F00BC36E3 /* Avocados */ = {
 			isa = PBXGroup;
 			children = (
+				8C16ED68248B3E2100AEE8FE /* View */,
+				8C16ED67248B3E1A00AEE8FE /* Model */,
+				8C16ED66248B3E0F00AEE8FE /* Deta */,
 				8C13FCE724893B6F00BC36E3 /* AppDelegate.swift */,
 				8C13FCE924893B6F00BC36E3 /* SceneDelegate.swift */,
-				8C13FCEB24893B6F00BC36E3 /* ContentView.swift */,
 				8C13FCED24893B7100BC36E3 /* Assets.xcassets */,
 				8C13FCF224893B7100BC36E3 /* LaunchScreen.storyboard */,
 				8C13FCF524893B7100BC36E3 /* Info.plist */,
@@ -73,6 +83,32 @@
 				8C13FCF024893B7100BC36E3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C16ED66248B3E0F00AEE8FE /* Deta */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Deta;
+			sourceTree = "<group>";
+		};
+		8C16ED67248B3E1A00AEE8FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C16ED68248B3E2100AEE8FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8C13FCEB24893B6F00BC36E3 /* ContentView.swift */,
+				8C16ED69248B3E4B00AEE8FE /* AvodadosView.swift */,
+				8C16ED6B248B3E7B00AEE8FE /* RipeningStagesView.swift */,
+				8C16ED6D248B3E9200AEE8FE /* SettingsView.swift */,
+				8C16ED6F248B3EAC00AEE8FE /* AppView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +183,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C13FCE824893B6F00BC36E3 /* AppDelegate.swift in Sources */,
+				8C16ED6C248B3E7B00AEE8FE /* RipeningStagesView.swift in Sources */,
+				8C16ED6A248B3E4B00AEE8FE /* AvodadosView.swift in Sources */,
+				8C16ED70248B3EAC00AEE8FE /* AppView.swift in Sources */,
+				8C16ED6E248B3E9200AEE8FE /* SettingsView.swift in Sources */,
 				8C13FCEA24893B6F00BC36E3 /* SceneDelegate.swift in Sources */,
 				8C13FCEC24893B6F00BC36E3 /* ContentView.swift in Sources */,
 			);
