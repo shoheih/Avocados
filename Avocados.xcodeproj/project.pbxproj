@@ -30,6 +30,7 @@
 		8C16ED86248BA68600AEE8FE /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16ED85248BA68600AEE8FE /* RecipeRatingView.swift */; };
 		8C16ED88248BA72C00AEE8FE /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16ED87248BA72C00AEE8FE /* RecipeCookingView.swift */; };
 		8C16ED8A248BA79A00AEE8FE /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16ED89248BA79A00AEE8FE /* RecipeDetailView.swift */; };
+		8C16ED8C248C607E00AEE8FE /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16ED8B248C607E00AEE8FE /* RipeningView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		8C16ED85248BA68600AEE8FE /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
 		8C16ED87248BA72C00AEE8FE /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
 		8C16ED89248BA79A00AEE8FE /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		8C16ED8B248C607E00AEE8FE /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				8C16ED85248BA68600AEE8FE /* RecipeRatingView.swift */,
 				8C16ED87248BA72C00AEE8FE /* RecipeCookingView.swift */,
 				8C16ED89248BA79A00AEE8FE /* RecipeDetailView.swift */,
+				8C16ED8B248C607E00AEE8FE /* RipeningView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				8C13FCEC24893B6F00BC36E3 /* ContentView.swift in Sources */,
 				8C16ED7E248B9B2D00AEE8FE /* FactData.swift in Sources */,
 				8C16ED78248B8FD900AEE8FE /* DishesView.swift in Sources */,
+				8C16ED8C248C607E00AEE8FE /* RipeningView.swift in Sources */,
 				8C16ED76248B5C8700AEE8FE /* HeaderData.swift in Sources */,
 				8C16ED82248B9F7200AEE8FE /* RecipeData.swift in Sources */,
 				8C16ED7A248B972900AEE8FE /* FactsView.swift in Sources */,
